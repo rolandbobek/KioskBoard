@@ -278,7 +278,7 @@
       var kbElements = [];
 
       // Allowed Element Types
-      var allowedElementTypes = ['input', 'textarea'];
+      var allowedElementTypes = ['input', 'textarea', 'div', 'span'];
 
       // If: Check the selector is an element
       var isElement = allowedElementTypes.indexOf(((selectorOrElement || {}).nodeName || '').toLocaleLowerCase('en')) > -1;
